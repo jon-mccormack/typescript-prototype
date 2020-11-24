@@ -5,10 +5,8 @@ const jon: SomeNamespace.User = {
   name: "Jon McCormack",
 };
 
-
 const newTestClass: SomeNamespace.TestClass = new models.SomeNamespace.TestClass(
   "jon"
 );
-
 
 console.log(jon);
