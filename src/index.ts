@@ -1,12 +1,13 @@
-const models = require("./models");
+import * as Models from "./models"
 
-const jon: SomeNamespace.User = {
+const jon: Models.SomeNamespace.User = {
   id: 1,
   name: "Jon McCormack",
 };
 
-const newTestClass: SomeNamespace.TestClass = new models.SomeNamespace.TestClass(
-  "jon"
+const newTestClass:  Models.SomeNamespace.TestClass = new Models.SomeNamespace.TestClass(
+  "jons"
 );
 
 console.log(jon);
+console.log(newTestClass);
